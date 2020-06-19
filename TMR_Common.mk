@@ -1,9 +1,6 @@
-include ${TACS_DIR}/Makefile.in
-include ${TACS_DIR}/TACS_Common.mk
-include ${PAROPT_DIR}/Makefile.in
-include ${PAROPT_DIR}/ParOpt_Common.mk
-include ${EGADS_DIR}/Makefile.in
 include ${EGADS_DIR}/EGADS_Common.mk
+include ${TACS_DIR}/TACS_Common.mk
+include ${PAROPT_DIR}/ParOpt_Common.mk
 
 TMR_LIB = ${TMR_DIR}/lib/libtmr.a
 
